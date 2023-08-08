@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="inputnum">
+            <form>
+                <div class="form-group">
+
+                    <input type="number" class="form-control" id="themSo" placeholder="Nhập vào số n">
+                </div>
+            </form>
+            <div class="btnnumn">
+                <button id="btnThemSo">Thêm số</button>
+            </div>
+        </div>
+        <div class="shownum">
+            <p id="txtNumber" class="shownumbers"></p>
+        </div>
+        <p>
+            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+                Tổng số dương
+            </a>
+        </p>
+        <div class="collapse sumsd" id="collapseExample">
+            <div class="card card-body sumst">
+                <button id="btntongsd">Tính tổng</button>
+                <p id="txttongsd">Tổng số dương :</p>
+            </div>
+        </div>
+        <p>
+            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample2" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+                Đếm số dương
+            </a>
+        </p>
+        <div class="collapse sumsd" id="collapseExample2">
+            <div class="card card-body sumst">
+                <button id="btnDemsd">Đếm số</button>
+                <p id="txtDemsd">Số dương :</p>
+            </div>
+        </div>
+        <p>
+            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample3" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+                Tìm số nhỏ nhất
+            </a>
+        </p>
+        <div class="collapse sumsd" id="collapseExample3">
+            <div class="card card-body sumst">
+                <button id="btnMin">Tìm số nhỏ nhất</button>
+                <p id="txtMin">Số nhỏ nhất :</p>
+            </div>
+        </div>
+        <p>
+            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample4" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+                Tìm số dương nhỏ nhất
+            </a>
+        </p>
+        <div class="collapse sumsd" id="collapseExample4">
+            <div class="card card-body sumst">
+                <button id="btnMinDuong">Tìm số dương nhỏ nhất </button>
+                <p id="txtMinDuong">Số dương nhỏ nhất :</p>
+            </div>
+        </div>
+        <p>
+            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample5" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+                Tìm số chẵn cuối cùng
+            </a>
+        </p>
+        <div class="collapse sumsd" id="collapseExample5">
+            <div class="card card-body sumst">
+                <button id="btnchanEnd">Tìm số chẵn cuối cùng</button>
+                <p id="txtchanEnd">Số chẵn cuối cùng :</p>
+            </div>
+        </div>
+        <p>
+            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample6" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+                Đổi chỗ
+            </a>
+        </p>
+        <div class="collapse sumsd" id="collapseExample6">
+            <div class="card card-body changenum">
+                <div class="chnums">
+                    <input type="number" class="form-control changenum1" id="changenum1" placeholder="Nhập số vị trí 1">
+                    <input type="number" class="form-control" id="changenum2" placeholder="Nhập số vị trí 2">
+                </div>
+                <button id="btnswap">Đổi chỗ</button>
+                <p id="txtswap">Mảng sau khi đổi chỗ</p>
+            </div>
+        </div>
+        <p>
+            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample7" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+                Sắp xếp tăng dần
+            </a>
+        </p>
+        <div class="collapse sumsd" id="collapseExample7">
+            <div class="card card-body sumst">
+                <button id="btnTang">Sắp xếp</button>
+                <p id="txtTang">Mảng sắp xếp tăng dần </p>
+            </div>
+        </div>
+        <p>
+            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample8" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+                Tìm số nguyên tố đầu tiên
+            </a>
+        </p>
+        <div class="collapse sumsd" id="collapseExample8">
+            <div class="card card-body sumst">
+                <button id="btnSoNT">Tìm số nguyên tố</button>
+                <p id="txtSoNT">Số nguyên tố đầu tiên</p>
+            </div>
+        </div>
+        <p>
+            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample9" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+                Đếm số nguyên
+            </a>
+        </p>
+        <div class="collapse sumsd" id="collapseExample9">
+            <div class="card card-body">
+                <div class="nhapsonguyen">
+                    <input type="number" class="nhapso" id="nhapso" placeholder="Nhập số">
+                    <button id="btnThem">Thêm Số</button>
+                </div>
+                <p id="txtThem"></p>
+                <button id="btnDemSN">Đếm số nguyên</button>
+                <p id="txtSoNguyen"></p>
+            </div>
+        </div>
+        <p>
+            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExamplea" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+                So sánh số lượng và số âm dương
+            </a>
+        </p>
+        <div class="collapse sumsd" id="collapseExamplea">
+            <div class="card card-body sumst">
+                <button id="btnSoSanh">So sánh</button>
+                <p id="txtSoSanh"></p>
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

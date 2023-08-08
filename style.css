@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.inputnum {
+    display: flex;
+    padding-top: 100px;
+}
+
+.form-group {
+    padding-right: 400px;
+
+
+}
+
+
+.form-control {
+    border: 2px solid;
+    border-radius: 15px;
+    font-size: 30px;
+    width: 210%;
+    box-shadow: 0 0 15px 0 #ccc;
+}
+
+.btnnumn {
+    padding-left: 160px;
+}
+
+.btnnumn button {
+    font-size: 20px;
+    padding: 14px 50px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: blue;
+}
+
+.shownumbers {
+    border: 1px solid;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 20px;
+    background-color: rgb(197, 245, 229);
+}
+
+.sumsd button {
+    font-size: 20px;
+    padding: 14px 50px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: blue;
+    border-radius: 30px;
+}
+
+.sumsd p {
+    margin-top: 50px;
+    font-size: 20px;
+    border: 1px solid;
+    padding: 20px;
+    background-color: rgb(197, 245, 229);
+}
+
+.btn-primary {
+    display: inherit;
+    font-size: 20px;
+    padding: 20px 0;
+    border-radius: 30px;
+}
+
+.chnums {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.changenum1 {
+    margin-right: 15px;
+}
+
+.nhapsonguyen {
+    display: flex;
+}
+
+.nhapso {
+    width: 788px;
+    margin-right: 100px;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 0 20px;
+}
+
+.btnDem {
+    margin-top: 40px;
+}
+
+.nhapsonguyen p {
+    display: inline;
+}
